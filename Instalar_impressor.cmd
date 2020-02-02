@@ -32,7 +32,7 @@ if %opc% GEQ 4 goto INICIO
 
 rem Codigo que faz a instalação da impressora colorida.
 :COLORIDA
-start \\10.102.80.61\PRNCOLORVMorumbi
+start \\servidor_de_impressão\impressoraColorida
 cls
 @echo.
 @echo                     INSTALACAO CONCLUIDA!!
@@ -44,7 +44,7 @@ goto INICIO
 
 rem Codigo que faz a instalação da impressora colorida.
 :PRETO_BRANCO
-start \\10.102.80.61\PRNPBVMorumbi
+start \\servidor_de_impressão\impressoraPretoeBranca
 cls
 @echo.
 @echo                     INSTALACAO CONCLUIDA!!
