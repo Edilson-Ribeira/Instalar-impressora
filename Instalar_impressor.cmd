@@ -32,6 +32,7 @@ if %opc% GEQ 4 goto INICIO
 
 rem Codigo que faz a instalação da impressora colorida.
 :COLORIDA
+rem Aqui voce deve anterar incluindo o servidor onde a impressaro esta e tambem o nome da impressora
 start \\servidor_de_impressão\impressoraColorida
 cls
 @echo.
@@ -44,6 +45,7 @@ goto INICIO
 
 rem Codigo que faz a instalação da impressora colorida.
 :PRETO_BRANCO
+rem Aqui voce deve anterar incluindo o servidor onde a impressaro esta e tambem o nome da impressora
 start \\servidor_de_impressão\impressoraPretoeBranca
 cls
 @echo.
